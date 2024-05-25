@@ -54,8 +54,8 @@
         <td>$row[address]</td>
         <td>$row[created_at] </td>
         <td>
-        <a class='btn btn-outline-success btn-sm' href='/myshop/edit.php?id=$row[id]' >Edit</a>
-        <a class='btn btn-outline-danger btn-sm' href='/myshop/delete.php?$row[id]' >Delete</a>
+        <a class='btn btn-outline-success btn-sm' href='./edit.php?id=$row[id]' >Edit</a>
+        <a class='btn btn-outline-danger btn-sm' href='./delete.php?$row[id]' >Delete</a>
         </td>
     </tr>
         
@@ -75,8 +75,8 @@
         <td>New York, USA</td>
         <td>2024-05-24 </td>
         <td>
-        <a class="btn btn-outline-success btn-sm" href="/myshop/edit.php" role="button">Edit</a>
-        <a class="btn btn-outline-danger btn-sm" href="/myshop/delete.php" role="button">Delete</a>
+        <a class="btn btn-outline-success btn-sm" href="./edit.php" role="button">Edit</a>
+        <a class="btn btn-outline-danger btn-sm" href="./delete.php" role="button">Delete</a>
         </td>
     </tr>
    </tbody>
